@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".SpaceySound">
+    <item android:id="@+id/menu_play"
+          android:title="@string/spaceysounds_play"
+          android:orderInCategory="100"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_pause"
+          android:title="@string/spaceysounds_pause"
+          android:orderInCategory="101"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_stop"
+          android:title="@string/spaceysounds_stop"
+          android:orderInCategory="102"
+          app:showAsAction="always"/>
+</menu>

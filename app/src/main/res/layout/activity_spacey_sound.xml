@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/space_apps_logo"/>
+
+        <!-- Start Cassini -->
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cassini_sounds"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cassini_saturn_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saturn_radio_1"
+                android:layout_weight=".33"/>
+
+            <Button
+                android:id="@+id/cassini_saturn_radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saturn_radio_2"
+                android:layout_weight=".33"/>
+
+            <Button
+                android:id="@+id/cassini_enceladus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enceladus_sound"
+                android:layout_weight=".33"/>
+
+        </LinearLayout>
+        <!-- End Cassini -->
+
+        <!-- Start Voyager -->
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voyager_sounds"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/voyager_interstellar_plasma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interstellar_plasma"
+                android:layout_weight=".5"/>
+
+            <Button
+                android:id="@+id/voyager_lightning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jupiter_lightning"
+                android:layout_weight=".5"/>
+        </LinearLayout>
+        <!-- End Voyager -->
+
+        <!-- Start Kepler -->
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kepler_light_waves_as_sound"
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kepler_star_kic12268220c"
+                android:text="@string/star_1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kepler_star_kic7671081b"
+                android:text="@string/star_2"/>
+
+        </LinearLayout>
+        <!-- End Kepler -->
+
+        <!-- Start Apollo Missions -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apollo_missions"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/apollo_merry_chrismas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apollo_8_merry_christmas"/>
+
+            <Button
+                android:id="@+id/apollo11_we_have_lift_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apollo_11_we_have_lift_off"/>
+
+            <Button
+                android:id="@+id/apollo11_eagle_has_landed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apollo_11_eagle_has_landed"/>
+
+            <Button
+                android:id="@+id/apollo11_one_small_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apollo_11_one_small_step"/>
+
+            <Button
+                android:id="@+id/apollo13_houston_problem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apollo_13_houston_we_have_a_problem"/>
+
+
+        </LinearLayout>
+        <!-- End Apollo Missions -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/discovery"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/discovery_go_at_throttle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_at_throttle_up"
+                />
+
+            <Button
+                android:id="@+id/discovery_go_for_deploy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_for_deploy"/>
+
+            <Button
+                android:id="@+id/discovery_good_picture_of_steve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/good_picture_of_steve"/>
+
+            <Button
+                android:id="@+id/discovery_houston_discovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/houston_discovery"/>
+
+            <Button
+                android:id="@+id/discovery_how_do_you_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/how_do_you_read"/>
+
+            <Button
+                android:id="@+id/discovery_lookin_at_it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lookin_at_it"/>
+
+            <Button
+                android:id="@+id/discovery_meco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meco"/>
+
+            <Button
+                android:id="@+id/discovery_nice_to_be_in_orbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nice_to_be_in_orbit"/>
+
+            <Button
+                android:id="@+id/discovery_on_its_way_to_orbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/on_its_way_to_orbit"/>
+
+            <Button
+                android:id="@+id/discovery_roger_roll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roger_roll"/>
+
+            <Button
+                android:id="@+id/discovery_sts26_liftoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sts_26_liftoff"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/courtesy"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nasa_link"/>
+
+    </LinearLayout>
+</ScrollView>
